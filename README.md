@@ -112,8 +112,8 @@ const trisno = {
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-api.vercel.app/api?username=codebytrisno&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="170" />
-  <img src="https://github-readme-stats-api.vercel.app/api/top-langs/?username=codebytrisno&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170" />
+  <img src="https://github-stats-extended.vercel.app/api?username=codebytrisno&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="170" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=codebytrisno&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170" />
 </p>
 
 <p align="center">
