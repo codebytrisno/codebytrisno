@@ -124,6 +124,53 @@ const trisno = {
   <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcodebytrisno%2Fcodebytrisno%2Frefs%2Fheads%2Fmain%2Ftoday-commits.json&style=flat-square" alt="Today's Commits" />
 </p>
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=codebytrisno&theme=tokyonight&hide_border=true" alt="WakaTime Stats" />
+</p>
+
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=codebytrisno&theme=tokyonight&no-frame=true&no-bg=true&column=-1" alt="GitHub Trophies" />
+</p>
+
+---
+
+## 📈 Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+---
+
+## 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/codebytrisno/codebytrisno/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/codebytrisno/codebytrisno/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/codebytrisno/codebytrisno/output/github-snake.svg" />
+</picture>
+
+---
+
+## 💬 Random Dev Quote
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Quote" />
+</p>
+
+---
+
+## ☕ Support Me
+
+<p align="center">
+  <a href="https://sociabuzz.com/trisnosanjaya" target="_blank">
+    <img src="https://img.shields.io/badge/Support_Me-SociaBuzz-6C63FF?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" />
+  </a>
+</p>
+
 ---
 
 ## 🌐 Let's Connect
