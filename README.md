@@ -121,7 +121,7 @@ const trisno = {
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcodebytrisno%2Fprofile-codebytrisno%2Frefs%2Fheads%2Fmain%2Ftoday-commits.json&style=flat-square" alt="Today's Commits" />
+  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcodebytrisno%2Fcodebytrisno%2Frefs%2Fheads%2Fmain%2Ftoday-commits.json&style=flat-square" alt="Today's Commits" />
 </p>
 
 ---
