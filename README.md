@@ -141,6 +141,9 @@ const trisno = {
 ## 📈 Recent Activity
 
 <!--START_SECTION:activity-->
+1. 🚀 Published release [FinansialKu v1.2.0](https://github.com/codebytrisno/finansialku/releases/tag/v1.2.0) in [codebytrisno/finansialku](https://github.com/codebytrisno/finansialku)
+2. 🚀 Published release [v1.1.0](https://github.com/codebytrisno/celengin/releases/tag/v1.1.0) in [codebytrisno/celengin](https://github.com/codebytrisno/celengin)
+3. 🚀 Published release [v1.0.0](https://github.com/codebytrisno/celengin/releases/tag/v1.0.0) in [codebytrisno/celengin](https://github.com/codebytrisno/celengin)
 <!--END_SECTION:activity-->
 
 ---
