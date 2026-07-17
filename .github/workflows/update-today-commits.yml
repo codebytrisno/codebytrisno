@@ -24,7 +24,7 @@ jobs:
 
       - name: Update badge JSON file
         run: |
-          python3 -c "import json; d={'schemaVersion':1,'label':\"Today's Commits\",'message':'${{ steps.fetch.outputs.count }}','color':'6C63FF','logo':'github','logoColor':'white'}; json.dump(d,open('today-commits.json','w'),indent=2); print('Badge updated to', '${{ steps.fetch.outputs.count }}')"
+          python3 -c "import json; d={'schemaVersion':1,'label':\"Today's Commits\",'message':'${{ steps.fetch.outputs.count }}','color':'6C63FF','logo':'github'}; json.dump(d,open('today-commits.json','w'),indent=2); print('Badge updated to', '${{ steps.fetch.outputs.count }}')"
 
       - name: Commit and push if changed
         run: |
