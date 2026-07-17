@@ -125,7 +125,7 @@ const trisno = {
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=codebytrisno&theme=tokyonight&hide_border=true" alt="WakaTime Stats" />
+  <a href="https://wakatime.com"><img src="https://img.shields.io/badge/WakaTime_Inactive-6C63FF?style=flat-square&logo=wakatime&logoColor=white" alt="WakaTime" /></a>
 </p>
 
 ---
@@ -133,7 +133,7 @@ const trisno = {
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=codebytrisno&theme=tokyonight&no-frame=true&no-bg=true&column=-1" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=codebytrisno&theme=tokyonight&no-frame=true&no-bg=true" alt="GitHub Trophies" />
 </p>
 
 ---
