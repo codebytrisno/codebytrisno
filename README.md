@@ -82,7 +82,70 @@ const trisno = {
 ## 📊 WakaTime Stats
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-19%20hrs%2021%20mins-blue?style=flat)
 
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-326.25%20thousand%20lines%20of%20code-blue?style=flat)
+
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                82 commits          ███████░░░░░░░░░░░░░░░░░░   29.93 % 
+🌆 Daytime                71 commits          ██████░░░░░░░░░░░░░░░░░░░   25.91 % 
+🌃 Evening                77 commits          ███████░░░░░░░░░░░░░░░░░░   28.10 % 
+🌙 Night                  44 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.06 % 
+```
+📅 **I'm Most Productive on Saturday** 
+
+```text
+Monday                   21 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.66 % 
+Tuesday                  9 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.28 % 
+Wednesday                54 commits          █████░░░░░░░░░░░░░░░░░░░░   19.71 % 
+Thursday                 36 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.14 % 
+Friday                   56 commits          █████░░░░░░░░░░░░░░░░░░░░   20.44 % 
+Saturday                 58 commits          █████░░░░░░░░░░░░░░░░░░░░   21.17 % 
+Sunday                   40 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.60 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Jakarta
+
+💬 Programming Languages: 
+Smali                    3 hrs 41 mins       █████████░░░░░░░░░░░░░░░░   36.16 % 
+Python                   1 hr 57 mins        █████░░░░░░░░░░░░░░░░░░░░   19.18 % 
+C#                       1 hr 34 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.48 % 
+XML                      1 hr 21 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.30 % 
+Markdown                 27 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
+
+🔥 Editors: 
+OpenCode                 9 hrs 44 mins       ████████████████████████░   95.32 % 
+Zed                      28 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.68 % 
+
+🐱‍💻 Projects: 
+kyy-op-mod               9 hrs 5 mins        ██████████████████████░░░   89.01 % 
+profile-codebytrisno     25 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.13 % 
+personal-branding        19 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.19 % 
+portofolio               13 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.16 % 
+time-blocking            3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.63 % 
+
+💻 Operating System: 
+WSL                      10 hrs 13 mins      █████████████████████████   100.00 % 
+```
+
+**I Mostly Code in TypeScript** 
+
+```text
+TypeScript               11 repos            ██████████████░░░░░░░░░░░   57.89 % 
+Python                   6 repos             ████████░░░░░░░░░░░░░░░░░   31.58 % 
+HTML                     2 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.53 % 
+```
+
+
+
+
+ Last Updated on 19/07/2026 15:31:13 UTC
 <!--END_SECTION:waka-->
 
 ---
