@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  update-activity:
     name: Update README with recent activity
     runs-on: ubuntu-latest
     permissions:
@@ -17,6 +17,121 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: Readme-Workflows/recent-activity@v2.4.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate activity
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { data: events } = await github.rest.activity.listPublicEventsForUser({
+              username: context.repo.owner,
+              per_page: 100,
+            });
+
+            const lines = [];
+            const seen = new Set();
+
+            for (const event of events) {
+              if (lines.length >= 10) break;
+
+              const repo = event.repo?.name || '';
+              const payload = event.payload;
+              let line = '';
+
+              switch (event.type) {
+                case 'PushEvent':
+                  const count = payload.commits?.length || 0;
+                  line = `🚀 Pushed ${count} commit${count > 1 ? 's' : ''} in [${repo}](https://github.com/${repo})`;
+                  break;
+                case 'CreateEvent':
+                  if (payload.ref_type === 'repository') {
+                    line = `📔 Created new repository [${repo}](https://github.com/${repo})`;
+                  } else {
+                    line = `🌿 Created branch \`${payload.ref}\` in [${repo}](https://github.com/${repo})`;
+                  }
+                  break;
+                case 'DeleteEvent':
+                  line = `🗑️ Deleted branch \`${payload.ref}\` in [${repo}](https://github.com/${repo})`;
+                  break;
+                case 'ForkEvent':
+                  line = `🔱 Forked [${repo}](https://github.com/${repo})`;
+                  break;
+                case 'IssuesEvent':
+                  if (payload.action === 'opened') {
+                    line = `❗️ Opened issue [#${payload.issue.number}](${payload.issue.html_url}) in [${repo}](https://github.com/${repo})`;
+                  } else if (payload.action === 'closed') {
+                    line = `✔️ Closed issue [#${payload.issue.number}](${payload.issue.html_url}) in [${repo}](https://github.com/${repo})`;
+                  }
+                  break;
+                case 'IssueCommentEvent':
+                  line = `💬 Commented on [#${payload.issue.number}](${payload.issue.html_url}) in [${repo}](https://github.com/${repo})`;
+                  break;
+                case 'PullRequestEvent':
+                  if (payload.action === 'opened') {
+                    line = `💪 Opened PR [#${payload.pull_request.number}](${payload.pull_request.html_url}) in [${repo}](https://github.com/${repo})`;
+                  } else if (payload.action === 'closed' && payload.pull_request.merged) {
+                    line = `🎉 Merged PR [#${payload.pull_request.number}](${payload.pull_request.html_url}) in [${repo}](https://github.com/${repo})`;
+                  } else if (payload.action === 'closed') {
+                    line = `❌ Closed PR [#${payload.pull_request.number}](${payload.pull_request.html_url}) in [${repo}](https://github.com/${repo})`;
+                  }
+                  break;
+                case 'PullRequestReviewEvent':
+                  line = `👀 Reviewed PR [#${payload.pull_request.number}](${payload.pull_request.html_url}) in [${repo}](https://github.com/${repo})`;
+                  break;
+                case 'ReleaseEvent':
+                  line = `🚀 Published release [${payload.release.tag_name}](${payload.release.html_url}) in [${repo}](https://github.com/${repo})`;
+                  break;
+                case 'WatchEvent':
+                  line = `⭐ Starred [${repo}](https://github.com/${repo})`;
+                  break;
+                case 'PublicEvent':
+                  line = `📢 Made [${repo}](https://github.com/${repo}) public`;
+                  break;
+              }
+
+              if (line && !seen.has(line)) {
+                seen.add(line);
+                lines.push(line);
+              }
+            }
+
+            const activity = lines.length > 0
+              ? lines.map((l, i) => `${i + 1}. ${l}`).join('\n')
+              : 'No recent activity found.';
+
+            // Read README
+            const { data: readme } = await github.rest.repos.getContent({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              path: 'README.md',
+            });
+
+            const content = Buffer.from(readme.content, 'base64').toString('utf-8');
+            const sha = readme.sha;
+
+            // Replace between markers
+            const startMarker = '<!--RECENT_ACTIVITY:start-->';
+            const endMarker = '<!--RECENT_ACTIVITY:end-->';
+            const startIdx = content.indexOf(startMarker);
+            const endIdx = content.indexOf(endMarker);
+
+            if (startIdx === -1 || endIdx === -1) {
+              core.setFailed('Could not find activity markers in README.md');
+              return;
+            }
+
+            const before = content.substring(0, startIdx + startMarker.length);
+            const after = content.substring(endIdx);
+            const newContent = before + '\n' + activity + '\n' + after;
+
+            // Commit
+            await github.rest.repos.createOrUpdateFileContents({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              path: 'README.md',
+              message: '⚡ Update README with recent activity',
+              content: Buffer.from(newContent).toString('base64'),
+              sha: sha,
+            });
+
+            core.info(`Updated activity with ${lines.length} entries`);
