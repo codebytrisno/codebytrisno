@@ -1,0 +1,28 @@
+settings:
+  max_lines: 10
+  readme_file: ./README.md
+  commit_msg: "⚡ Update README with recent activity"
+  commit_name: "github-actions[bot]"
+  commit_email: "41898282+github-actions[bot]@users.noreply.github.com"
+  date:
+    timezone: "Asia/Jakarta"
+    text: "Last updated: {DATE}"
+    format: "dd mmmm yyyy, HH:MM:ss"
+
+messages:
+  comments: "💬 Commented on {ID} in {REPO}"
+  create_repo: "📔 Created new repository {REPO}"
+  fork_repo: "🔱 Forked {FORK} from {REPO}"
+  issue_opened: "❗️ Opened issue {ID} in {REPO}"
+  issue_closed: "✔️ Closed issue {ID} in {REPO}"
+  new_release: "🚀 Published release {ID} in {REPO}"
+  new_star: "⭐ Starred {REPO}"
+  pr_opened: "💪 Opened PR {ID} in {REPO}"
+  pr_closed: "❗️ Closed PR {ID} in {REPO}"
+  pr_merged: "🎉 Merged PR {ID} in {REPO}"
+  push: "🚀 Pushed {AMOUNT} commit(s) in {REPO}"
+  review: "👀 Reviewed {ID} in {REPO}"
+  wiki: "📝 Updated wiki in {REPO}"
+  added_member: "🤝 Became collaborator on {REPO}"
+  changes_approved: "👍 Approved {ID} in {REPO}"
+  changes_requested: "🔴 Requested {AMOUNT} change(s) in {ID} in {REPO}"
