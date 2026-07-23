@@ -112,9 +112,9 @@ HTML                     1 repo              █░░░░░░░░░░�
 
 <!--RECENT_ACTIVITY:last_update-->
 <!--RECENT_ACTIVITY:start-->
-1. 🚀 Pushed 0 commit in [3scode/time-blocking](https://github.com/3scode/time-blocking)
-2. 🚀 Pushed 0 commit in [3scode/tekajeoneofficial](https://github.com/3scode/tekajeoneofficial)
-3. 🚀 Pushed 0 commit in [3scode/3scode](https://github.com/3scode/3scode)
+1. 🚀 Pushed 0 commit in [3scode/3scode](https://github.com/3scode/3scode)
+2. 🚀 Pushed 0 commit in [3scode/time-blocking](https://github.com/3scode/time-blocking)
+3. 🚀 Pushed 0 commit in [3scode/tekajeoneofficial](https://github.com/3scode/tekajeoneofficial)
 4. 🚀 Pushed 0 commit in [3scode/cli-ytdownloader](https://github.com/3scode/cli-ytdownloader)
 5. 🚀 Pushed 0 commit in [3scode/youtube-sentiment-analyzer](https://github.com/3scode/youtube-sentiment-analyzer)
 6. 🌿 Created branch `main` in [3scode/youtube-sentiment-analyzer](https://github.com/3scode/youtube-sentiment-analyzer)
