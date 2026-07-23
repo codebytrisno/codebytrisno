@@ -90,71 +90,20 @@ const trisno = {
 ## 📊 WakaTime Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-41%20hrs%2038%20mins-blue?style=flat)
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-262.44%20thousand%20lines%20of%20code-blue?style=flat)
-
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning                71 commits          ███████░░░░░░░░░░░░░░░░░░   28.63 % 
-🌆 Daytime                61 commits          ██████░░░░░░░░░░░░░░░░░░░   24.60 % 
-🌃 Evening                73 commits          ███████░░░░░░░░░░░░░░░░░░   29.44 % 
-🌙 Night                  43 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.34 % 
-```
-📅 **I'm Most Productive on Friday** 
-
-```text
-Monday                   22 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.87 % 
-Tuesday                  7 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   02.82 % 
-Wednesday                55 commits          ██████░░░░░░░░░░░░░░░░░░░   22.18 % 
-Thursday                 15 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.05 % 
-Friday                   56 commits          ██████░░░░░░░░░░░░░░░░░░░   22.58 % 
-Saturday                 54 commits          █████░░░░░░░░░░░░░░░░░░░░   21.77 % 
-Sunday                   39 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.73 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Jakarta
-
-💬 Programming Languages: 
-TypeScript               15 hrs 39 mins      █████████░░░░░░░░░░░░░░░░   37.60 % 
-Markdown                 6 hrs 47 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.30 % 
-Smali                    3 hrs 50 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.22 % 
-Other                    2 hrs 51 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   06.88 % 
-JSON                     2 hrs 14 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   05.40 % 
-
-🔥 Editors: 
-OpenCode                 24 hrs 18 mins      ███████████████░░░░░░░░░░   58.37 % 
-Zed                      17 hrs 18 mins      ██████████░░░░░░░░░░░░░░░   41.58 % 
-Opencode Cli             1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 % 
-
-🐱‍💻 Projects: 
-kyy-topup                12 hrs 34 mins      ████████░░░░░░░░░░░░░░░░░   30.18 % 
-kyy-op-mod               10 hrs 42 mins      ██████░░░░░░░░░░░░░░░░░░░   25.71 % 
-portofolio               4 hrs 26 mins       ███░░░░░░░░░░░░░░░░░░░░░░   10.66 % 
-app-goelf                4 hrs 1 min         ██░░░░░░░░░░░░░░░░░░░░░░░   09.68 % 
-Unknown Project          3 hrs 18 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.93 % 
-
-💻 Operating System: 
-WSL                      41 hrs 38 mins      █████████████████████████   100.00 % 
-```
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-266.84%20thousand%20lines%20of%20code-blue?style=flat)
 
 **I Mostly Code in TypeScript** 
 
 ```text
-TypeScript               11 repos            ███████████████░░░░░░░░░░   61.11 % 
+TypeScript               12 repos            █████████████████░░░░░░░░   66.67 % 
 Python                   5 repos             ███████░░░░░░░░░░░░░░░░░░   27.78 % 
-HTML                     2 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
+HTML                     1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.56 % 
 ```
 
 
 
 
- Last Updated on 22/07/2026 19:53:00 UTC
+ Last Updated on 23/07/2026 19:56:06 UTC
 <!--END_SECTION:waka-->
 
 ---
