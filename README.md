@@ -90,26 +90,6 @@ const trisno = {
 
 ---
 
-## 📊 WakaTime Stats
-
-<!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-266.84%20thousand%20lines%20of%20code-blue?style=flat)
-
-**I Mostly Code in TypeScript** 
-
-```text
-TypeScript               12 repos            █████████████████░░░░░░░░   66.67 % 
-Python                   5 repos             ███████░░░░░░░░░░░░░░░░░░   27.78 % 
-HTML                     1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.56 % 
-```
-
-
-
-
- Last Updated on 23/07/2026 19:56:06 UTC
-<!--END_SECTION:waka-->
-
----
 
 ## 🏆 GitHub Trophies
 
